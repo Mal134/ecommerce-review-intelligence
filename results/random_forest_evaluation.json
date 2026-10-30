@@ -1,0 +1,47 @@
+{
+    "dataset_records": 19820,
+    "training_records": 15914,
+    "testing_records": 3906,
+    "model_results": {
+        "model": "Random Forest",
+        "accuracy": 0.7547363031233999,
+        "weighted_precision": 0.5696268872523765,
+        "weighted_recall": 0.7547363031233999,
+        "weighted_f1": 0.6492450019281536,
+        "macro_f1": 0.286742534772882,
+        "class_wise_metrics": {
+            "Negative": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0
+            },
+            "Neutral": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0
+            },
+            "Positive": {
+                "precision": 0.7547363031233999,
+                "recall": 1.0,
+                "f1_score": 0.860227604318646
+            }
+        },
+        "confusion_matrix": [
+            [
+                0.0,
+                0.0,
+                447.0
+            ],
+            [
+                0.0,
+                0.0,
+                511.0
+            ],
+            [
+                0.0,
+                0.0,
+                2948.0
+            ]
+        ]
+    }
+}

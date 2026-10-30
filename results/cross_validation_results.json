@@ -1,0 +1,193 @@
+{
+    "cross_validation": "5-fold StratifiedKFold",
+    "random_state": 42,
+    "training_records": 15914,
+    "held_out_test_records": 3906,
+    "feature_count": 6935,
+    "models": {
+        "Naive Bayes": {
+            "fold_results": [
+                {
+                    "accuracy": 0.7756833176248822,
+                    "weighted_precision": 0.8101723136439576,
+                    "weighted_recall": 0.7756833176248822,
+                    "weighted_f1": 0.7904103494355762,
+                    "macro_f1": 0.5886183400874546
+                },
+                {
+                    "accuracy": 0.7659440779139177,
+                    "weighted_precision": 0.8135206935137058,
+                    "weighted_recall": 0.7659440779139177,
+                    "weighted_f1": 0.7852714318157554,
+                    "macro_f1": 0.5891685626187093
+                },
+                {
+                    "accuracy": 0.7759974866478165,
+                    "weighted_precision": 0.8192848955047024,
+                    "weighted_recall": 0.7759974866478165,
+                    "weighted_f1": 0.7934613013753752,
+                    "macro_f1": 0.6016119049360178
+                },
+                {
+                    "accuracy": 0.7640590637763116,
+                    "weighted_precision": 0.8083727921673828,
+                    "weighted_recall": 0.7640590637763116,
+                    "weighted_f1": 0.7823670687451016,
+                    "macro_f1": 0.5757917683281404
+                },
+                {
+                    "accuracy": 0.7708988057825267,
+                    "weighted_precision": 0.8132816011877397,
+                    "weighted_recall": 0.7708988057825267,
+                    "weighted_f1": 0.7883360448819375,
+                    "macro_f1": 0.5849402062941974
+                }
+            ],
+            "summary": {
+                "accuracy": {
+                    "mean": 0.7705165503490911,
+                    "std": 0.005465548989289881
+                },
+                "weighted_precision": {
+                    "mean": 0.8129264592034977,
+                    "std": 0.0041602329766436096
+                },
+                "weighted_recall": {
+                    "mean": 0.7705165503490911,
+                    "std": 0.005465548989289881
+                },
+                "weighted_f1": {
+                    "mean": 0.7879692392507491,
+                    "std": 0.004327782082572547
+                },
+                "macro_f1": {
+                    "mean": 0.5880261564529039,
+                    "std": 0.009292896162129792
+                }
+            }
+        },
+        "Logistic Regression": {
+            "fold_results": [
+                {
+                    "accuracy": 0.7961043041156142,
+                    "weighted_precision": 0.7904940599686175,
+                    "weighted_recall": 0.7961043041156142,
+                    "weighted_f1": 0.7931609490032019,
+                    "macro_f1": 0.5818257752752737
+                },
+                {
+                    "accuracy": 0.7917059377945335,
+                    "weighted_precision": 0.7928916056216769,
+                    "weighted_recall": 0.7917059377945335,
+                    "weighted_f1": 0.7922929958542843,
+                    "macro_f1": 0.5822608467313435
+                },
+                {
+                    "accuracy": 0.7895067546339931,
+                    "weighted_precision": 0.7908193711702312,
+                    "weighted_recall": 0.7895067546339931,
+                    "weighted_f1": 0.7901539843907203,
+                    "macro_f1": 0.5699316440973877
+                },
+                {
+                    "accuracy": 0.7807100219918316,
+                    "weighted_precision": 0.7823542926517979,
+                    "weighted_recall": 0.7807100219918316,
+                    "weighted_f1": 0.781400814009698,
+                    "macro_f1": 0.5663942526760332
+                },
+                {
+                    "accuracy": 0.7960402262727844,
+                    "weighted_precision": 0.7967167081739303,
+                    "weighted_recall": 0.7960402262727844,
+                    "weighted_f1": 0.7963360405368445,
+                    "macro_f1": 0.5876063274112421
+                }
+            ],
+            "summary": {
+                "accuracy": {
+                    "mean": 0.7908134489617513,
+                    "std": 0.006322491048582524
+                },
+                "weighted_precision": {
+                    "mean": 0.7906552075172508,
+                    "std": 0.0052607359877989875
+                },
+                "weighted_recall": {
+                    "mean": 0.7908134489617513,
+                    "std": 0.006322491048582524
+                },
+                "weighted_f1": {
+                    "mean": 0.7906689567589498,
+                    "std": 0.005637531229066799
+                },
+                "macro_f1": {
+                    "mean": 0.5776037692382561,
+                    "std": 0.009001106063883171
+                }
+            }
+        },
+        "XGBoost": {
+            "fold_results": [
+                {
+                    "accuracy": 0.7766258246936852,
+                    "weighted_precision": 0.8208593712535515,
+                    "weighted_recall": 0.7766258246936852,
+                    "weighted_f1": 0.7944181922312332,
+                    "macro_f1": 0.6046340030151108
+                },
+                {
+                    "accuracy": 0.7580898523405593,
+                    "weighted_precision": 0.8096162920050677,
+                    "weighted_recall": 0.7580898523405593,
+                    "weighted_f1": 0.7785415313868556,
+                    "macro_f1": 0.5805377829159505
+                },
+                {
+                    "accuracy": 0.7590323594093622,
+                    "weighted_precision": 0.8111547812290488,
+                    "weighted_recall": 0.7590323594093622,
+                    "weighted_f1": 0.7796326935930774,
+                    "macro_f1": 0.5876800185955502
+                },
+                {
+                    "accuracy": 0.7527489789506755,
+                    "weighted_precision": 0.8097507390946281,
+                    "weighted_recall": 0.7527489789506755,
+                    "weighted_f1": 0.7752860383631142,
+                    "macro_f1": 0.5806904057755574
+                },
+                {
+                    "accuracy": 0.7668133249528598,
+                    "weighted_precision": 0.8079808536817882,
+                    "weighted_recall": 0.7668133249528598,
+                    "weighted_f1": 0.7838997772751148,
+                    "macro_f1": 0.5869690308550645
+                }
+            ],
+            "summary": {
+                "accuracy": {
+                    "mean": 0.7626620680694284,
+                    "std": 0.009281281030632688
+                },
+                "weighted_precision": {
+                    "mean": 0.8118724074528169,
+                    "std": 0.0051482091556499755
+                },
+                "weighted_recall": {
+                    "mean": 0.7626620680694284,
+                    "std": 0.009281281030632688
+                },
+                "weighted_f1": {
+                    "mean": 0.7823556465698791,
+                    "std": 0.0074133436317141525
+                },
+                "macro_f1": {
+                    "mean": 0.5881022482314467,
+                    "std": 0.009835114638567184
+                }
+            }
+        }
+    },
+    "feature_extraction_note": "TF-IDF vocabulary and IDF were fitted once on the complete training split before cross-validation. Therefore, fold validation text influenced unsupervised feature statistics. The held-out test set was not used."
+}

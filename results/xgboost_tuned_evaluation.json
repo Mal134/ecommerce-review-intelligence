@@ -1,0 +1,103 @@
+{
+    "model": "Tuned XGBoost",
+    "training_records": 15914,
+    "testing_records": 3906,
+    "best_configuration": {
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "n_estimators": 180,
+        "min_child_weight": 2,
+        "minority_multiplier": 1.0
+    },
+    "validation_best_macro_f1": 0.5772006804433295,
+    "class_weights": {
+        "0": 3.098520249221184,
+        "1": 2.72034188034188,
+        "2": 0.4329633257155294
+    },
+    "accuracy": 0.7401433691756273,
+    "weighted_precision": 0.811266564157422,
+    "weighted_recall": 0.7401433691756273,
+    "weighted_f1": 0.7657397941912077,
+    "macro_f1": 0.5957759955778693,
+    "class_wise_metrics": {
+        "Negative": {
+            "precision": 0.4370257966616085,
+            "recall": 0.6442953020134228,
+            "f1_score": 0.5207956600361664
+        },
+        "Neutral": {
+            "precision": 0.33077905491698595,
+            "recall": 0.5068493150684932,
+            "f1_score": 0.40030911901081917
+        },
+        "Positive": {
+            "precision": 0.9512987012987013,
+            "recall": 0.7951153324287653,
+            "f1_score": 0.8662232076866223
+        }
+    },
+    "confusion_matrix": [
+        [
+            288,
+            123,
+            36
+        ],
+        [
+            168,
+            259,
+            84
+        ],
+        [
+            203,
+            401,
+            2344
+        ]
+    ],
+    "tuning_results": [
+        {
+            "configuration": {
+                "max_depth": 4,
+                "learning_rate": 0.05,
+                "n_estimators": 180,
+                "min_child_weight": 2,
+                "minority_multiplier": 1.0
+            },
+            "validation_accuracy": 0.7414060080520285,
+            "validation_macro_f1": 0.5772006804433295
+        },
+        {
+            "configuration": {
+                "max_depth": 5,
+                "learning_rate": 0.05,
+                "n_estimators": 180,
+                "min_child_weight": 2,
+                "minority_multiplier": 1.0
+            },
+            "validation_accuracy": 0.7488386497367606,
+            "validation_macro_f1": 0.5765018946298567
+        },
+        {
+            "configuration": {
+                "max_depth": 4,
+                "learning_rate": 0.05,
+                "n_estimators": 180,
+                "min_child_weight": 2,
+                "minority_multiplier": 1.15
+            },
+            "validation_accuracy": 0.7259213378755033,
+            "validation_macro_f1": 0.5728638394075654
+        },
+        {
+            "configuration": {
+                "max_depth": 5,
+                "learning_rate": 0.03,
+                "n_estimators": 220,
+                "min_child_weight": 3,
+                "minority_multiplier": 1.15
+            },
+            "validation_accuracy": 0.7246825642613812,
+            "validation_macro_f1": 0.5703889727055099
+        }
+    ]
+}

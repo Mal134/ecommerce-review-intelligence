@@ -1,0 +1,14 @@
+
+pyspark==4.0.1
+pandas==2.2.3
+numpy==2.2.6
+pyarrow==20.0.0
+scikit-learn==1.7.2
+streamlit==1.50.0
+plotly==6.3.1
+sqlalchemy==2.0.43
+psycopg2-binary==2.9.10
+matplotlib==3.10.6
+seaborn==0.13.2
+joblib==1.5.2
+jupyter==1.1.1

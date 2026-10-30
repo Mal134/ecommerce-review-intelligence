@@ -1,0 +1,50 @@
+{
+    "model": "Weighted Logistic Regression",
+    "dataset_records": 19820,
+    "training_records": 15914,
+    "testing_records": 3906,
+    "class_weights": {
+        "0": 3.098520249221184,
+        "1": 2.72034188034188,
+        "2": 0.4329633257155294
+    },
+    "accuracy": 0.7744495647721454,
+    "weighted_precision": 0.796825982465491,
+    "weighted_recall": 0.7744495647721453,
+    "weighted_f1": 0.7844316160904455,
+    "macro_f1": 0.5944121616093873,
+    "class_wise_metrics": {
+        "Negative": {
+            "precision": 0.48851774530271397,
+            "recall": 0.5234899328859061,
+            "f1_score": 0.5053995680345572
+        },
+        "Neutral": {
+            "precision": 0.3432601880877743,
+            "recall": 0.42857142857142855,
+            "f1_score": 0.381201044386423
+        },
+        "Positive": {
+            "precision": 0.9221943348870563,
+            "recall": 0.8724559023066486,
+            "f1_score": 0.8966358724071815
+        }
+    },
+    "confusion_matrix": [
+        [
+            234.0,
+            151.0,
+            62.0
+        ],
+        [
+            137.0,
+            219.0,
+            155.0
+        ],
+        [
+            108.0,
+            268.0,
+            2572.0
+        ]
+    ]
+}

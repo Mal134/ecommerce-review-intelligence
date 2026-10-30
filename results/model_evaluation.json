@@ -1,0 +1,97 @@
+{
+    "dataset_records": 19759,
+    "training_records": 15861,
+    "testing_records": 3898,
+    "sentiment_labels": {
+        "0": "Negative",
+        "1": "Neutral",
+        "2": "Positive"
+    },
+    "models": [
+        {
+            "model": "Naive Bayes",
+            "accuracy": 0.779887121600821,
+            "weighted_precision": 0.8194483960623639,
+            "weighted_recall": 0.779887121600821,
+            "weighted_f1": 0.7961189919967566,
+            "macro_f1": 0.6060825344089679,
+            "class_wise_metrics": {
+                "Negative": {
+                    "precision": 0.4892241379310345,
+                    "recall": 0.530373831775701,
+                    "f1_score": 0.5089686098654709
+                },
+                "Neutral": {
+                    "precision": 0.3436619718309859,
+                    "recall": 0.5083333333333333,
+                    "f1_score": 0.41008403361344536
+                },
+                "Positive": {
+                    "precision": 0.9430983847283406,
+                    "recall": 0.8591973244147157,
+                    "f1_score": 0.8991949597479874
+                }
+            },
+            "confusion_matrix": [
+                [
+                    227.0,
+                    157.0,
+                    44.0
+                ],
+                [
+                    125.0,
+                    244.0,
+                    111.0
+                ],
+                [
+                    112.0,
+                    309.0,
+                    2569.0
+                ]
+            ]
+        },
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.8037455105182145,
+            "weighted_precision": 0.7898922227465357,
+            "weighted_recall": 0.8037455105182145,
+            "weighted_f1": 0.795977819606289,
+            "macro_f1": 0.5876698640259961,
+            "class_wise_metrics": {
+                "Negative": {
+                    "precision": 0.5449591280653951,
+                    "recall": 0.4672897196261682,
+                    "f1_score": 0.5031446540880503
+                },
+                "Neutral": {
+                    "precision": 0.37740384615384615,
+                    "recall": 0.32708333333333334,
+                    "f1_score": 0.3504464285714286
+                },
+                "Positive": {
+                    "precision": 0.8911717495987159,
+                    "recall": 0.928428093645485,
+                    "f1_score": 0.9094185094185094
+                }
+            },
+            "confusion_matrix": [
+                [
+                    200.0,
+                    119.0,
+                    109.0
+                ],
+                [
+                    93.0,
+                    157.0,
+                    230.0
+                ],
+                [
+                    74.0,
+                    140.0,
+                    2776.0
+                ]
+            ]
+        }
+    ],
+    "best_model_by_macro_f1": "Naive Bayes"
+}
